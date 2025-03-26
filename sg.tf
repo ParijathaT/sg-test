@@ -1,5 +1,5 @@
 module "mysql_sg"{
-    sourse = "../terraform-aws-securitygroup"
+    source = "../terraform-aws-securitygroup "
     project_name = var.project_name
     environment = var.environment
     sg_name = "mysql"
